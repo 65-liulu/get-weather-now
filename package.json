@@ -1,0 +1,14 @@
+{
+  "name": "get-weather-now",
+  "version": "1.0.0",
+  "description": "获取天气工具\u001b[D\u001b[D\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D命令行获取天气工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "65-liulu",
+  "license": "ISC"
+}
