@@ -1,8 +1,11 @@
 {
   "name": "get-weather-now",
-  "version": "1.0.0",
+  "version": "1.3.1",
   "description": "获取天气工具\u001b[D\u001b[D\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D命令行获取天气工具",
   "main": "index.js",
+  "bin": {
+    "get-weather": "./bin/get-weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +13,17 @@
     "weather"
   ],
   "author": "65-liulu",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/65-liulu/get-weather-now.git"
+  },
+  "bugs": {
+    "url": "https://github.com/65-liulu/get-weather-now/issues"
+  },
+  "homepage": "https://github.com/65-liulu/get-weather-now#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "yargs": "^6.5.0"
+  }
 }
